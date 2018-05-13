@@ -1,4 +1,4 @@
-%% One hour TTM data
+%% One hour TTM data ( was from beginning supposed to be for only one hour chart but added some if statements for the other timeframes aswell) 
 function [One] = TTMonehr(TimeFrame)
 %% Assign values
 url = 'https://api.binance.com/api/v1/klines';
